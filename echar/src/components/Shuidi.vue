@@ -27,6 +27,7 @@
                 var value = 0.2;
                 var data = [value, value, value, ];
                 this.shuidi.setOption({
+
                     backgroundColor: new echarts.graphic.RadialGradient(0.3, 0.3, 0.8, [{
                         offset: 0,
                         color: '#431ab8'
@@ -35,7 +36,7 @@
                         color: '#471bba'
                     }]),
                     title: {
-                        text: (value * 100).toFixed(0) + '{a|%}',
+                        text: 'shuidi' + (value * 100).toFixed(0) + '{a|%}',
                         textStyle: {
                             fontSize: 50,
                             fontFamily: 'Microsoft Yahei',
@@ -165,7 +166,7 @@
     .chart-container {
         background-color:white;
         height: 100%;
-        width: 100%;
+        width: 50%;
     }
 
     .el-col {

@@ -124,6 +124,20 @@
                 var getdata=getData()
 
                 this.guanxi.setOption({
+                    title: {
+                        text: 'guanxi',
+                        textStyle: {
+                            fontSize: 20,
+                            fontFamily: 'Microsoft Yahei',
+                            fontWeight: 'normal',
+                            color: '#37e7ff',
+                            rich: {
+                                a: {
+                                    fontSize: 28,
+                                }
+                            }
+                        },
+                    },
                     type: "tree",
                     backgroundColor: "#000",
                     toolbox: { //工具栏
@@ -201,7 +215,7 @@
     .chart-container {
         background-color:white;
         height: 100%;
-        width: 100%;
+        width: 50%;
     }
 
     .el-col {
